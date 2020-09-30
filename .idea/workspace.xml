@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="51948883-a107-492c-984c-3dc3dbe660c8" name="Default Changelist" comment="" />
+    <list default="true" id="51948883-a107-492c-984c-3dc3dbe660c8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Database/DataBase.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Database/TableBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/FormValidation.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/PersonalDetails.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/PersonalDetailsTableBuilder.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/RecordState.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/State.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validation/AddressValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validation/IValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validation/PersonValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validation/PhoneValidation.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validators/IValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validators/MinLengthValidator.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validators/RegularExpressionValidator.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3.ReactBootstrap/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3.ReactBootstrap/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/ch3.ReactBootstrap/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ch3.ReactBootstrap/src/logo.svg" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,9 +32,13 @@
       <list>
         <option value="tsconfig.json" />
         <option value="HTML File" />
+        <option value="TypeScript JSX File" />
         <option value="TypeScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="2" />
@@ -28,24 +52,56 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validation" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
-    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/ch3.ReactBootstrap/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validation" />
+      <recent name="$PROJECT_DIR$/ch3.ReactBootstrap/src/Validators" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/ch2.MarkdownEditor" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/ch1.TypeScript" />
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/ch2.MarkdownEditor" />
-    </key>
+  </component>
+  <component name="RunManager" selected="npm.ch3-start">
+    <configuration name="ch2-start" type="JavascriptDebugType" uri="http://localhost:63342/AdvancedTypeScriptProgrammingProjects/ch2.MarkdownEditor/MarkdownParser.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ch3.ReactBootstrap/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="ch3-start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/ch3.ReactBootstrap/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.ch2-start" />
+      <item itemvalue="npm.ch3-start" />
+    </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -58,7 +114,8 @@
       <workItem from="1601366048101" duration="8963000" />
       <workItem from="1601376209687" duration="65000" />
       <workItem from="1601376282575" duration="88000" />
-      <workItem from="1601376378219" duration="6599000" />
+      <workItem from="1601376378219" duration="7269000" />
+      <workItem from="1601432297088" duration="11306000" />
     </task>
     <servers />
   </component>
@@ -66,10 +123,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="232" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601368379821">
+    <state x="232" y="129" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1601432131327">
       <screen x="0" y="23" width="1536" height="890" />
     </state>
-    <state x="232" y="129" key="#com.intellij.execution.impl.EditConfigurationsDialog/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601368379821" />
+    <state x="232" y="129" width="1071" height="700" key="#com.intellij.execution.impl.EditConfigurationsDialog/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601432131327" />
     <state x="483" y="276" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601366095918">
       <screen x="0" y="23" width="1536" height="890" />
     </state>
@@ -82,14 +139,34 @@
       <screen x="0" y="23" width="1536" height="890" />
     </state>
     <state x="245" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601368727353" />
+    <state x="506" y="222" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601448247105">
+      <screen x="0" y="23" width="1536" height="890" />
+    </state>
+    <state x="506" y="222" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601448247105" />
+    <state width="1515" height="717" key="GridCell.Tab.0.bottom" timestamp="1601447734418">
+      <screen x="0" y="23" width="1536" height="890" />
+    </state>
+    <state width="1515" height="717" key="GridCell.Tab.0.bottom/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601447734418" />
+    <state width="1515" height="717" key="GridCell.Tab.0.center" timestamp="1601447734417">
+      <screen x="0" y="23" width="1536" height="890" />
+    </state>
+    <state width="1515" height="717" key="GridCell.Tab.0.center/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601447734417" />
+    <state width="1515" height="717" key="GridCell.Tab.0.left" timestamp="1601447734417">
+      <screen x="0" y="23" width="1536" height="890" />
+    </state>
+    <state width="1515" height="717" key="GridCell.Tab.0.left/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601447734417" />
+    <state width="1515" height="717" key="GridCell.Tab.0.right" timestamp="1601447734417">
+      <screen x="0" y="23" width="1536" height="890" />
+    </state>
+    <state width="1515" height="717" key="GridCell.Tab.0.right/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601447734417" />
     <state x="269" y="106" key="SettingsEditor" timestamp="1601430667539">
       <screen x="0" y="23" width="1536" height="890" />
     </state>
     <state x="269" y="106" key="SettingsEditor/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601430667539" />
-    <state x="466" y="222" width="604" height="490" key="find.popup" timestamp="1601375028800">
+    <state x="466" y="222" width="604" height="548" key="find.popup" timestamp="1601448180321">
       <screen x="0" y="23" width="1536" height="890" />
     </state>
-    <state x="466" y="222" width="604" height="490" key="find.popup/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601375028800" />
+    <state x="466" y="222" width="604" height="548" key="find.popup/1536.23.1920.1177/0.23.1536.890@0.23.1536.890" timestamp="1601448180321" />
     <state x="433" y="216" width="670" height="676" key="search.everywhere.popup" timestamp="1601373401263">
       <screen x="0" y="23" width="1536" height="890" />
     </state>

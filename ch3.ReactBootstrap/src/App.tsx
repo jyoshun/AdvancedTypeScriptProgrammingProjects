@@ -1,26 +1,28 @@
-import React from 'react';
-import logo from './logo.svg';
+import * as React from 'react';
+import Container from 'reactstrap/lib/Container';
 import './App.css';
+import PersonalDetails from './PersonalDetails';
+import { IPersonState } from './State';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  private defaultPerson: IPersonState = {
+    FirstName: '',
+    LastName: '',
+    Address1: '',
+    Address2: null,
+    Town: '',
+    Country: '',
+    PhoneNumber: '',
+    PostCode: '',
+    DateOfBirth: new Date().toISOString().substring(0, 10),
+    PersonId: '',
+  }
+
+  public render() {
+    return (
+        <Container>
+          <PersonalDetails DefaultState={this.defaultPerson}/>
+        </Container>
+    )
+  }
 }
-
-export default App;
